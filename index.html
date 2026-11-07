@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Averin — Get paid on overdue invoices</title>
+<meta name="description" content="Averin ranks your debtors book, writes the follow-up in your name and sends it. Email, WhatsApp, then a call, every morning, without you touching it. Built for South African credit books.">
+<meta name="theme-color" content="#0A0A0A">
+<meta property="og:title" content="Averin — Get paid on overdue invoices">
+<meta property="og:description" content="Averin ranks your debtors book, writes the follow-up in your name and sends it. Email, WhatsApp, then a call. Built for South African credit books.">
+<meta property="og:image" content="assets/dashboard-complete.png">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="wrap nav-in">
+    <a href="#top" class="wordmark" aria-label="Averin home">Averin</a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#how">Product</a>
+      <a href="#numbers">One run</a>
+      <a href="#control">Control</a>
+      <a href="#cases">Case studies</a>
+      <span class="nav-spacer"></span>
+      <a href="mailto:lu@averin.co.za" class="nav-contact arrow">Contact</a>
+      <a href="#access" class="btn btn-amber btn-sm nav-cta">Request access</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+      <span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ── Hero ─────────────────────────────────────────── -->
+  <section class="hero">
+    <div class="canvas" aria-hidden="true"><div class="canvas-mesh"></div></div>
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="kicker reveal">Accounts receivable · South Africa</p>
+        <h1 class="reveal">Overdue invoices, chased every morning.<br><em>Signed by you.</em></h1>
+        <p class="lede reveal">Averin ranks your debtors book, writes the follow-up in your name and sends it. Email, WhatsApp, then a call. You read the outcomes, not the admin.</p>
+        <div class="hero-cta reveal">
+          <a href="#access" class="btn btn-amber arrow">Request access</a>
+          <a href="#how" class="link-plain arrow">See a run on a real book</a>
+        </div>
+        <p class="hero-foot reveal">Runs on a debtors export. Never touches your bank.</p>
+      </div>
+
+      <div class="hero-visual reveal">
+        <figure class="shot shot-hero">
+          <div class="shot-bar"><span></span><span></span><span></span><i>app.averin.co.za</i></div>
+          <picture>
+            <source media="(max-width: 700px)" srcset="assets/mobile-live.png">
+            <img src="assets/dashboard-complete.png" alt="The Averin command view after a chase run: book exposure, committed rand, a priority-ranked queue of twelve accounts and the live event stream." width="2880" height="1800" fetchpriority="high">
+          </picture>
+        </figure>
+
+        <div class="chip chip-b" aria-hidden="true">
+          <span class="chip-dot"></span>
+          <div><strong>Chase complete</strong><span>7 promises · R469 900 committed</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Marquee strip ────────────────────────────────── -->
+  <section class="strip">
+    <div class="wrap strip-in">
+      <div class="strip-item reveal"><span class="strip-k">Hands off</span><span>One run a morning. Nobody writes a reminder by hand again.</span></div>
+      <div class="strip-item reveal"><span class="strip-k">In your name</span><span>From your accounts address, not from a collections agency.</span></div>
+      <div class="strip-item reveal"><span class="strip-k">Lawful by default</span><span>Contact hours, dispute rights and identification built into every message.</span></div>
+    </div>
+  </section>
+
+  <!-- ── A morning, end to end ────────────────────────── -->
+  <section class="rail">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="kicker">A morning, end to end</p>
+        <h2>You open the laptop. It is already done.</h2>
+      </div>
+      <ol class="rail-steps">
+        <li class="reveal"><span class="rail-n">07:00</span><h3>The book is scored</h3><p>Every open invoice ranked on amount and age. The queue reorders itself overnight.</p></li>
+        <li class="reveal"><span class="rail-n">08:00</span><h3>Emails go out</h3><p>Each one written in your name, quoting the invoice, the amount and the days overdue.</p></li>
+        <li class="reveal"><span class="rail-n">09:30</span><h3>WhatsApp and calls</h3><p>Silence escalates. A message, then a call, inside the hours the Act allows.</p></li>
+        <li class="reveal"><span class="rail-n">11:00</span><h3>Promises land</h3><p>Dates captured, disputes flagged to you, a report in your inbox.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ── Features ─────────────────────────────────────── -->
+  <section class="how" id="how">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="kicker">How it works</p>
+        <h2>A queue, a send, a promise.</h2>
+        <p class="sec-sub">Three things happen every morning without you. Averin decides the order, writes the words and records what came back.</p>
+      </div>
+
+      <div class="feature">
+        <div class="feature-copy reveal">
+          <p class="kicker">Priority queue</p>
+          <h3>Who gets chased first.</h3>
+          <p>Every account is scored on the amount owed and how long it has been outstanding. The large invoice that is sixty days late sits above the small one that is two weeks late, every time.</p>
+          <ul class="facts">
+            <li>Score = amount × log of days overdue</li>
+            <li>Re-ranked after every reply and payment</li>
+            <li>Accounts under R500 stay out of the queue</li>
+          </ul>
+          <a href="#numbers" class="link-plain arrow">See what one run produces</a>
+        </div>
+        <figure class="shot reveal">
+          <picture>
+            <source media="(max-width: 600px)" srcset="assets/queue-mobile.png">
+            <img src="assets/queue-ready.png" alt="The priority queue: twelve accounts ranked by score with contact, amount owed and days overdue." loading="lazy">
+          </picture>
+        </figure>
+      </div>
+
+      <div class="feature feature-flip">
+        <div class="feature-copy reveal">
+          <p class="kicker">Written and sent</p>
+          <h3>The email you never had to write.</h3>
+          <p>Each follow-up goes out under your name and your address, with the reference, the amount and the days overdue filled in. Polite on the first pass, firmer on the second. Replies are read and the sentiment surfaced to you.</p>
+          <ul class="facts">
+            <li>Courtesy notice, then a formal demand, then a call</li>
+            <li>English, Zulu, Afrikaans, Xhosa, Sotho and Tswana</li>
+            <li>Stops the moment an account is paid</li>
+          </ul>
+          <a href="#control" class="link-plain arrow">What you still control</a>
+        </div>
+        <figure class="shot shot-tall reveal">
+          <picture>
+            <source media="(max-width: 600px)" srcset="assets/drawer-mobile.png">
+            <img src="assets/drawer-promise.png" alt="An account drawer showing the email that was sent, the WhatsApp follow-up, the call transcript and a recorded promise to pay." loading="lazy">
+          </picture>
+        </figure>
+      </div>
+
+      <div class="feature">
+        <div class="feature-copy reveal">
+          <p class="kicker">Promises tracked</p>
+          <h3>Every promise, on record.</h3>
+          <p>When a debtor commits to a date, Averin writes it down, reminds you the day before it lapses and flags the ones that break. The live stream shows each send and each outcome as it happens.</p>
+          <ul class="facts">
+            <li>Promise to pay, arrangement, dispute, no answer</li>
+            <li>Disputes are routed to you, never argued by software</li>
+            <li>A report lands in your inbox when the run finishes</li>
+          </ul>
+          <a href="#access" class="link-plain arrow">Run it on your book</a>
+        </div>
+        <figure class="shot shot-tall reveal">
+          <img src="assets/events-complete.png" alt="The live events panel listing each email sent, each call placed and each promise recorded during a run." loading="lazy">
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Numbers ──────────────────────────────────────── -->
+  <section class="numbers" id="numbers">
+    <div class="wrap numbers-in">
+      <div class="sec-head reveal">
+        <p class="kicker">One book, one run</p>
+        <h2>What a single morning on the demo book looks like.</h2>
+        <p class="sec-sub">Twelve accounts, R1.25 million outstanding, seven promises to pay. These are the numbers from that run, not a forecast.</p>
+      </div>
+      <dl class="stats reveal">
+        <div><dt>Book exposure</dt><dd>R1,247,800</dd><p>Across twelve accounts, fourteen to seventy-one days overdue.</p></div>
+        <div><dt>Committed to pay</dt><dd class="is-amber">R469 900</dd><p>Four promises in full and three payment arrangements.</p></div>
+        <div><dt>Accounts reached</dt><dd>11 / 12</dd><p>One number failed to connect and was flagged for you.</p></div>
+        <div><dt>Promise rate</dt><dd>64%</dd><p>Of accounts reached, the share that committed to a date.</p></div>
+      </dl>
+      <p class="fine reveal">Results on your own book depend on your debtors. We will run it on a real export before you decide anything.</p>
+    </div>
+  </section>
+
+  <!-- ── Control ──────────────────────────────────────── -->
+  <section class="control" id="control">
+    <div class="wrap">
+      <div class="trust-grid">
+        <div class="trust-copy reveal">
+          <p class="kicker">Control</p>
+          <h2>Automatic is not unaccountable.</h2>
+          <p class="sec-sub">It sends without you. It does not act outside the rules you set, and it never hides what it did.</p>
+          <dl class="trust-list">
+            <div><dt>Your rules</dt><dd>Tone, cadence, the gap between escalations and the ceiling on how far an account goes before it reaches a human.</dd></div>
+            <div><dt>Stop anything</dt><dd>Pause an account, a client or the whole run. A paid invoice drops out of the queue on its own.</dd></div>
+            <div><dt>Lawful contact</dt><dd>Follow-ups go out in your name, state the purpose up front, offer the right to dispute and keep to lawful contact hours. Calls say they are recorded. No legal threats unless you authorise them.</dd></div>
+            <div><dt>Audit log</dt><dd>Every send, call and outcome is timestamped and append-only. Export it whenever a client or a partner asks.</dd></div>
+            <div><dt>Where your data sits</dt><dd>Your book is held with a cloud host outside South Africa under a POPIA section 72 transfer clause. An operator agreement drafted for section 21 is ready for your attorney.</dd></div>
+          </dl>
+        </div>
+        <figure class="shot reveal">
+          <picture>
+            <source media="(max-width: 600px)" srcset="assets/audit-mobile.png">
+            <img src="assets/audit.png" alt="The audit log: a timestamped, append-only list of every email, WhatsApp, call and outcome during a run." loading="lazy">
+          </picture>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Case studies ─────────────────────────────────── -->
+  <section class="cases" id="cases">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="kicker">Case studies</p>
+        <h2>Three books, one morning each.</h2>
+        <p class="sec-sub">What the software does to a debtors book, shown on the book we run it on and projected onto two others at the same rates.</p>
+      </div>
+
+      <article class="case reveal">
+        <div class="case-top">
+          <p class="kicker">Wholesale distributor · 12 accounts</p>
+          <span class="case-tag is-live">Live run</span>
+        </div>
+        <h3>R469 900 committed before lunch.</h3>
+        <div class="case-body">
+          <div class="case-copy">
+            <p>A R1.25 million book, twelve accounts, fourteen to seventy-one days overdue. Averin scored the book, sent twelve emails in the client's name, followed each with WhatsApp and called every account that stayed quiet.</p>
+            <p>Eleven were reached. Seven committed to a date, four in full and three on instalments. One number failed to connect and was flagged for a human. The largest account, seventy-one days out at R134 000, agreed to a three-month arrangement on the call.</p>
+          </div>
+          <dl class="case-stats">
+            <div><dt>Book</dt><dd>R1,247,800</dd></div>
+            <div><dt>Reached</dt><dd>11 / 12</dd></div>
+            <div><dt>Committed</dt><dd class="is-amber">R469 900</dd></div>
+          </dl>
+        </div>
+      </article>
+
+      <article class="case reveal">
+        <div class="case-top">
+          <p class="kicker">Bookkeeping practice · 14 client books</p>
+          <span class="case-tag">Projection</span>
+        </div>
+        <h3>Friday afternoons, back.</h3>
+        <div class="case-body">
+          <div class="case-copy">
+            <p>Take a practice carrying fourteen client books with roughly R4.1 million open between them, where one person writes the follow-ups by hand every Friday.</p>
+            <p>Each book runs on its own schedule, under its own client's name and address. At the rate above, the past-due portion produces commitments without anyone drafting a letter, and every client gets a separate report and a separate audit log their accountant can sign off.</p>
+          </div>
+          <dl class="case-stats">
+            <div><dt>Client books</dt><dd>14</dd></div>
+            <div><dt>Open balance</dt><dd>R4.1m</dd></div>
+            <div><dt>Letters written by hand</dt><dd class="is-amber">0</dd></div>
+          </dl>
+        </div>
+      </article>
+
+      <article class="case reveal">
+        <div class="case-top">
+          <p class="kicker">Building materials supplier · 180 accounts</p>
+          <span class="case-tag">Projection</span>
+        </div>
+        <h3>The rep never has to ask for money.</h3>
+        <div class="case-body">
+          <div class="case-copy">
+            <p>Take a supplier with 180 accounts on thirty-day terms and R6.8 million open, of which about R2.7 million is past due.</p>
+            <p>Reminders go out from the accounts address rather than the rep, so the person holding the relationship is never the person chasing it. Applying the same share of book committed as the live run above gives roughly R1.0 million in dated commitments from a single pass.</p>
+          </div>
+          <dl class="case-stats">
+            <div><dt>Accounts</dt><dd>180</dd></div>
+            <div><dt>Past due</dt><dd>R2.7m</dd></div>
+            <div><dt>Committed</dt><dd class="is-amber">~R1.0m</dd></div>
+          </dl>
+        </div>
+      </article>
+
+      <p class="fine reveal">The first study is a live run of Averin on our demo book, and those are its real outputs. The second and third are projections onto assumed books at the same per-run rate, not client results. On the walkthrough we run your own export and that becomes the study we show you.</p>
+    </div>
+  </section>
+
+  <!-- ── Quotes ───────────────────────────────────────── -->
+  <section class="quotes">
+    <div class="wrap">
+      <div class="quote-grid">
+        <blockquote class="reveal">
+          <p>“I used to lose Friday afternoons writing the same three emails to the same twelve people. Now I read the outcomes on Monday.”</p>
+          <footer>Bookkeeper, fourteen client books · Pretoria</footer>
+        </blockquote>
+        <blockquote class="reveal">
+          <p>“Our reps hated chasing. The reminder comes from our accounts address, so the relationship survives and the money still arrives.”</p>
+          <footer>Financial manager, building-materials distributor · Durban</footer>
+        </blockquote>
+        <blockquote class="reveal">
+          <p>“The audit log is what sold my partners. Every message, every call, and the hour it went out.”</p>
+          <footer>Partner, four-person accounting practice · Cape Town</footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Access ───────────────────────────────────────── -->
+  <section class="access" id="access">
+    <div class="canvas canvas-bottom" aria-hidden="true"><div class="canvas-mesh"></div></div>
+    <div class="wrap access-in">
+      <div class="access-copy reveal">
+        <p class="kicker">Request access</p>
+        <h2>Ready to see it on your book?</h2>
+        <p class="sec-sub">Send us one debtors export and we run it in front of you. A twenty-minute call, your real accounts, no commitment. We onboard a small number of South African firms at a time.</p>
+        <div class="form-wrap">
+          <form class="form" id="accessForm" name="access" method="POST" action="/" data-netlify="true" netlify-honeypot="bot-field" novalidate>
+            <input type="hidden" name="form-name" value="access">
+            <p class="hp" aria-hidden="true"><label>Leave this field empty<input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+            <div class="form-row">
+              <label>Work email<input type="email" name="email" placeholder="you@firm.co.za" required autocomplete="email"></label>
+              <label>Company<input type="text" name="company" placeholder="Firm or business name" required autocomplete="organization"></label>
+            </div>
+            <label>Roughly how many accounts on credit
+              <select name="size">
+                <option>Under 50</option>
+                <option selected>50 to 250</option>
+                <option>250 to 1 000</option>
+                <option>More than 1 000</option>
+              </select>
+            </label>
+            <div class="form-actions">
+              <button type="submit" class="btn btn-amber arrow">Request access</button>
+              <p class="form-note" id="formNote">A person replies within one working day.</p>
+            </div>
+          </form>
+          <div class="form-thanks" id="formThanks" hidden tabindex="-1">
+            <p class="thanks-title">Thank you.</p>
+            <p>We have your request for <strong data-company></strong>. A person will reply within one working day with a time for the walkthrough. Have a recent debtors export ready, any format your accounting system produces.</p>
+          </div>
+        </div>
+      </div>
+      <div class="side-cards reveal">
+        <article class="side-card">
+          <h3>What the walkthrough covers</h3>
+          <ul class="facts">
+            <li>Your export loaded and scored, live</li>
+            <li>The first three sends, in your name</li>
+            <li>A promise recorded and the report that follows</li>
+          </ul>
+          <a href="#how" class="link-plain arrow">How it works</a>
+        </article>
+        <article class="side-card">
+          <h3>What to bring</h3>
+          <p>A debtors age analysis or an export of open invoices. Any format your accounting system produces is fine, including Sage, Xero and QuickBooks.</p>
+          <a href="mailto:lu@averin.co.za" class="link-plain arrow">Ask a question first</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a href="#top" class="wordmark">Averin</a>
+        <p>Accounts receivable, chased in your name. A product of LMNR Group (Pty) Ltd, Centurion.</p>
+      </div>
+      <div class="foot-col">
+        <h4>Product</h4>
+        <a href="#how">Priority queue</a>
+        <a href="#how">Sends in your name</a>
+        <a href="#how">Promises tracked</a>
+        <a href="#numbers">One run, by the numbers</a>
+      </div>
+      <div class="foot-col">
+        <h4>Control</h4>
+        <a href="#control">Your rules</a>
+        <a href="#control">Audit log</a>
+        <a href="#control">Lawful contact</a>
+        <a href="#control">Where your data sits</a>
+      </div>
+      <div class="foot-col">
+        <h4>Company</h4>
+        <a href="#cases">Case studies</a>
+        <a href="#access">Request access</a>
+        <a href="mailto:lu@averin.co.za">lu@averin.co.za</a>
+      </div>
+    </div>
+    <div class="foot-legal">
+      <p>Averin is a product of <strong>LMNR Group (Pty) Ltd</strong>, a private company registered in the Republic of South Africa. Registration number 2026/828138/07. Registered office and place of business: 11 Olievenhoutbosch Road, Highveld, Centurion, Gauteng, 0144. Director: L Matshiyane. Email: <a href="mailto:lu@averin.co.za">lu@averin.co.za</a>.</p>
+    </div>
+    <div class="foot-bar">
+      <small>© <span id="year">2026</span> LMNR Group (Pty) Ltd. All rights reserved.</small>
+      <nav class="foot-legal-links">
+        <a href="privacy.html">Privacy notice</a>
+        <a href="paia.html">PAIA manual</a>
+        <a href="mailto:lu@averin.co.za">Contact</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
